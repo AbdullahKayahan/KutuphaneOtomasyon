@@ -1,0 +1,13 @@
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.exe.config
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.pdb
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csprojResolveAssemblyReference.cache
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Form1.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Form2.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Form3.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Form4.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Form5.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Properties.Resources.resources
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csproj.GenerateResource.Cache
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.exe
+c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.pdb
