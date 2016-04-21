@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyon
 {
-    public partial class Form1 : Form
+    public partial class kitapAra : Form
     {
-        public Form1()
+        public kitapAra()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text=comboBox1.Text+" GİRİNİZ";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

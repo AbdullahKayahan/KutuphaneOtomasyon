@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyon
 {
-    public partial class Form5 : Form
+    public partial class kitapAl : Form
     {
-        public Form5()
+        public kitapAl()
         {
             InitializeComponent();
         }
+        public int kimlikNo;
+        public int kitapId;
+
+        private void kitapAl_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = kimlikNo.ToString();
+            textBox4.Text = kitapId.ToString();
+        }
     }
-}
+    }
+

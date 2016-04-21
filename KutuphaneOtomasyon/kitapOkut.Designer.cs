@@ -1,6 +1,6 @@
 ﻿namespace KutuphaneOtomasyon
 {
-    partial class Form2
+    partial class kitapOkut
     {
         /// <summary>
         /// Required designer variable.
@@ -40,6 +40,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "KİTAP OKUT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -48,14 +49,14 @@
             this.textBox1.Size = new System.Drawing.Size(267, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // Form2
+            // kitapOkut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 261);
+            this.ClientSize = new System.Drawing.Size(489, 220);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
+            this.Name = "kitapOkut";
             this.Text = "KİTAP OKUT";
             this.ResumeLayout(false);
             this.PerformLayout();

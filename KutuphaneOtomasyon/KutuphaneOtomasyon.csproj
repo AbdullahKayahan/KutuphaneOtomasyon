@@ -46,52 +46,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="anaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="anaSayfa.Designer.cs">
+      <DependentUpon>anaSayfa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="giris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="kitapOkut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="kitapOkut.Designer.cs">
+      <DependentUpon>kitapOkut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="kimlikOkut.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="kimlikOkut.Designer.cs">
+      <DependentUpon>kimlikOkut.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="kitapAra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="kitapAra.Designer.cs">
+      <DependentUpon>kitapAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yonetim.Designer.cs">
+      <DependentUpon>yonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapAl.Designer.cs">
+      <DependentUpon>kitapAl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="anaSayfa.resx">
+      <DependentUpon>anaSayfa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="kitapAl.resx">
+      <DependentUpon>kitapAl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="kitapOkut.resx">
+      <DependentUpon>kitapOkut.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="kimlikOkut.resx">
+      <DependentUpon>kimlikOkut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapAra.resx">
+      <DependentUpon>kitapAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yonetim.resx">
+      <DependentUpon>yonetim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

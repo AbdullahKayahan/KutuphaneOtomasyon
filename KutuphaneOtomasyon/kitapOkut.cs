@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyon
 {
-    public partial class Form3 : Form
+    public partial class kitapOkut : Form
     {
-        public Form3()
+        public kitapOkut()
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            kimlikOkut kimOkt = new kimlikOkut();
+            kimOkt.Show();
+            kimOkt.kitapNo = Convert.ToInt32(textBox1.Text);
+            this.Hide();
+        }
     }
 }
+

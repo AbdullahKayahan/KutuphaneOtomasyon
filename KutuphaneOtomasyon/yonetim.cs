@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KutuphaneOtomasyon
 {
-    public partial class Form4 : Form
+    public partial class yonetim : Form
     {
-        public Form4()
+        public yonetim()
         {
             InitializeComponent();
         }

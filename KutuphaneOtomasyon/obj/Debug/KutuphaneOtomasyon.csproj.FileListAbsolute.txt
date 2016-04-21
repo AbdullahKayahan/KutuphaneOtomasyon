@@ -14,3 +14,15 @@ c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\Kutup
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.exe.config
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.exe
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.pdb
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.exe
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.pdb
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csprojResolveAssemblyReference.cache
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.anaSayfa.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.kitapAl.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.kitapOkut.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.kimlikOkut.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.kitapAra.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.yonetim.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Properties.Resources.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csproj.GenerateResource.Cache
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.giris.resources

@@ -1,6 +1,6 @@
 ﻿namespace KutuphaneOtomasyon
 {
-    partial class Form4
+    partial class kitapAra
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -53,14 +53,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ARA";
             // 
-            // button1
+            // textBox1
             // 
-            this.button1.Location = new System.Drawing.Point(121, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "ARA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(6, 58);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(281, 20);
+            this.textBox1.TabIndex = 2;
             // 
             // comboBox1
             // 
@@ -75,13 +73,17 @@
             this.comboBox1.Size = new System.Drawing.Size(281, 21);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "ARAMA KRİTERİNİZİ SEÇİNİZ";
+            this.comboBox1.TextChanged += new System.EventHandler(this.comboBox1_TextChanged);
             // 
-            // textBox1
+            // button1
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(281, 20);
-            this.textBox1.TabIndex = 2;
+            this.button1.Location = new System.Drawing.Point(121, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "ARA";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
@@ -102,15 +104,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(275, 319);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "AL";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(356, 319);
@@ -120,14 +113,23 @@
             this.button3.Text = "AYIR";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Form4
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(275, 319);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "AL";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // kitapAra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 511);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form4";
+            this.Name = "kitapAra";
             this.Text = "ARA-AL-AYIRT";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

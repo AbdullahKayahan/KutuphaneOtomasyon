@@ -1,6 +1,6 @@
 ﻿namespace KutuphaneOtomasyon
 {
-    partial class Form3
+    partial class kimlikOkut
     {
         /// <summary>
         /// Required designer variable.
@@ -47,16 +47,18 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "KİMLİK OKUT";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form3
+            // kimlikOkut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(589, 261);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form3";
+            this.Name = "kimlikOkut";
             this.Text = "KİMLİK OKUT";
+            this.Load += new System.EventHandler(this.kimlikOkut_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
