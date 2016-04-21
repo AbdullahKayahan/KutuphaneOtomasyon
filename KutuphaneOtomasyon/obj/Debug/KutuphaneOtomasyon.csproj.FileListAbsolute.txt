@@ -11,3 +11,6 @@ c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\Kutup
 c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csproj.GenerateResource.Cache
 c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.exe
 c:\users\abdullah\documents\visual studio 2015\Projects\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.pdb
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\bin\Debug\KutuphaneOtomasyon.exe.config
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.exe
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.pdb
