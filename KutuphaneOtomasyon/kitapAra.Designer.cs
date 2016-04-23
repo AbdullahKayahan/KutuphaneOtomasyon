@@ -131,6 +131,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "kitapAra";
             this.Text = "ARA-AL-AYIRT";
+            this.Load += new System.EventHandler(this.kitapAra_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

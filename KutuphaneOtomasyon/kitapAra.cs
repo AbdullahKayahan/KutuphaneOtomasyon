@@ -26,5 +26,12 @@ namespace KutuphaneOtomasyon
         {
 
         }
+
+        private void kitapAra_Load(object sender, EventArgs e)
+        {
+            
+           
+
+        }
     }
 }
