@@ -26,3 +26,5 @@ C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Deb
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.Properties.Resources.resources
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.csproj.GenerateResource.Cache
 C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.giris.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.ziyaretciKayit.resources
+C:\Users\Abdullah\Documents\GitHub\KutuphaneOtomasyon\KutuphaneOtomasyon\obj\Debug\KutuphaneOtomasyon.ziyaretciGiris.resources

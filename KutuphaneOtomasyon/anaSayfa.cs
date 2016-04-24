@@ -16,7 +16,8 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
-
+        public string kullaniciAdi;
+        public string kimlikNo;
         private void button3_Click(object sender, EventArgs e)
         {
             kitapOkut kitOkt = new kitapOkut();
@@ -37,6 +38,23 @@ namespace KutuphaneOtomasyon
             giris grs = new giris();
             grs.Show();
             this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ziyaretciKayit zkyt = new ziyaretciKayit();
+            zkyt.Show();
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void anaSayfa_Load(object sender, EventArgs e)
+        {
 
         }
     }

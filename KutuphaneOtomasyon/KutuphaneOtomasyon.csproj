@@ -105,6 +105,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ziyaretciGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ziyaretciGiris.Designer.cs">
+      <DependentUpon>ziyaretciGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ziyaretciKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ziyaretciKayit.Designer.cs">
+      <DependentUpon>ziyaretciKayit.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="anaSayfa.resx">
       <DependentUpon>anaSayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +147,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ziyaretciGiris.resx">
+      <DependentUpon>ziyaretciGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ziyaretciKayit.resx">
+      <DependentUpon>ziyaretciKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
