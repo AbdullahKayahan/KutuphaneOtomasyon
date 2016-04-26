@@ -30,33 +30,37 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtEserAdi = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cmbCesit = new System.Windows.Forms.ComboBox();
             this.txtKod = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.txtAdet = new System.Windows.Forms.TextBox();
+            this.txtEserSahibiSoyadi = new System.Windows.Forms.TextBox();
             this.txtTuru = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtAdet = new System.Windows.Forms.TextBox();
-            this.cmbCesit = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtEserSahibiAdi = new System.Windows.Forms.TextBox();
-            this.txtEserSahibiSoyadi = new System.Windows.Forms.TextBox();
+            this.txtEserAdi = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -78,6 +82,14 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "KULLANICI EKLE";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 16);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(589, 179);
+            this.dataGridView1.TabIndex = 1;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(416, 278);
@@ -90,6 +102,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.cmbCesit);
             this.tabPage2.Controls.Add(this.txtKod);
@@ -112,48 +125,28 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ESER EKLE";
             // 
-            // button2
+            // label5
             // 
-            this.button2.Location = new System.Drawing.Point(378, 156);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "EKLE";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(107, 192);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Çeşit:";
             // 
-            // tabPage3
+            // cmbCesit
             // 
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(616, 340);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "PARAMETRE GÜNCELLE";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 16);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(589, 179);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 114);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Eser Adı:";
-            // 
-            // txtEserAdi
-            // 
-            this.txtEserAdi.Location = new System.Drawing.Point(148, 111);
-            this.txtEserAdi.Name = "txtEserAdi";
-            this.txtEserAdi.Size = new System.Drawing.Size(121, 20);
-            this.txtEserAdi.TabIndex = 2;
+            this.cmbCesit.FormattingEnabled = true;
+            this.cmbCesit.Items.AddRange(new object[] {
+            "Kitap",
+            "Dergi",
+            "CD",
+            "DVD"});
+            this.cmbCesit.Location = new System.Drawing.Point(148, 189);
+            this.cmbCesit.Name = "cmbCesit";
+            this.cmbCesit.Size = new System.Drawing.Size(121, 21);
+            this.cmbCesit.TabIndex = 4;
+            this.cmbCesit.Text = "Çeşit Seçiniz";
             // 
             // txtKod
             // 
@@ -163,24 +156,19 @@
             this.txtKod.TabIndex = 3;
             this.txtKod.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label2
+            // txtAdet
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "ISBN:";
+            this.txtAdet.Location = new System.Drawing.Point(148, 163);
+            this.txtAdet.Name = "txtAdet";
+            this.txtAdet.Size = new System.Drawing.Size(121, 20);
+            this.txtAdet.TabIndex = 2;
             // 
-            // label3
+            // txtEserSahibiSoyadi
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(107, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Türü:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.txtEserSahibiSoyadi.Location = new System.Drawing.Point(398, 111);
+            this.txtEserSahibiSoyadi.Name = "txtEserSahibiSoyadi";
+            this.txtEserSahibiSoyadi.Size = new System.Drawing.Size(121, 20);
+            this.txtEserSahibiSoyadi.TabIndex = 2;
             // 
             // txtTuru
             // 
@@ -199,35 +187,39 @@
             this.label4.Text = "Adet:";
             this.label4.Click += new System.EventHandler(this.label3_Click);
             // 
-            // txtAdet
+            // txtEserSahibiAdi
             // 
-            this.txtAdet.Location = new System.Drawing.Point(148, 163);
-            this.txtAdet.Name = "txtAdet";
-            this.txtAdet.Size = new System.Drawing.Size(121, 20);
-            this.txtAdet.TabIndex = 2;
+            this.txtEserSahibiAdi.Location = new System.Drawing.Point(398, 85);
+            this.txtEserSahibiAdi.Name = "txtEserSahibiAdi";
+            this.txtEserSahibiAdi.Size = new System.Drawing.Size(121, 20);
+            this.txtEserSahibiAdi.TabIndex = 2;
             // 
-            // cmbCesit
+            // txtEserAdi
             // 
-            this.cmbCesit.FormattingEnabled = true;
-            this.cmbCesit.Items.AddRange(new object[] {
-            "Kitap",
-            "Dergi",
-            "CD",
-            "DVD"});
-            this.cmbCesit.Location = new System.Drawing.Point(148, 189);
-            this.cmbCesit.Name = "cmbCesit";
-            this.cmbCesit.Size = new System.Drawing.Size(121, 21);
-            this.cmbCesit.TabIndex = 4;
-            this.cmbCesit.Text = "Çeşit Seçiniz";
+            this.txtEserAdi.Location = new System.Drawing.Point(148, 111);
+            this.txtEserAdi.Name = "txtEserAdi";
+            this.txtEserAdi.Size = new System.Drawing.Size(121, 20);
+            this.txtEserAdi.TabIndex = 2;
             // 
-            // label5
+            // label3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(107, 192);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Çeşit:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(107, 140);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Türü:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(294, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(98, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Eser Sahibi Soyadi:";
+            this.label7.Click += new System.EventHandler(this.label6_Click);
             // 
             // label6
             // 
@@ -239,29 +231,52 @@
             this.label6.Text = "Eser Sahibi Adi:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // txtEserSahibiAdi
+            // label2
             // 
-            this.txtEserSahibiAdi.Location = new System.Drawing.Point(398, 85);
-            this.txtEserSahibiAdi.Name = "txtEserSahibiAdi";
-            this.txtEserSahibiAdi.Size = new System.Drawing.Size(121, 20);
-            this.txtEserSahibiAdi.TabIndex = 2;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(107, 88);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "ISBN:";
             // 
-            // txtEserSahibiSoyadi
+            // label1
             // 
-            this.txtEserSahibiSoyadi.Location = new System.Drawing.Point(398, 111);
-            this.txtEserSahibiSoyadi.Name = "txtEserSahibiSoyadi";
-            this.txtEserSahibiSoyadi.Size = new System.Drawing.Size(121, 20);
-            this.txtEserSahibiSoyadi.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(93, 114);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Eser Adı:";
             // 
-            // label7
+            // button2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(294, 114);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Eser Sahibi Soyadi:";
-            this.label7.Click += new System.EventHandler(this.label6_Click);
+            this.button2.Location = new System.Drawing.Point(194, 232);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "EKLE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(616, 340);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "PARAMETRE GÜNCELLE";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(525, 129);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(29, 24);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "+";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // yonetim
             // 
@@ -274,9 +289,9 @@
             this.Load += new System.EventHandler(this.yonetim_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -304,5 +319,6 @@
         private System.Windows.Forms.TextBox txtEserSahibiAdi;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button3;
     }
 }

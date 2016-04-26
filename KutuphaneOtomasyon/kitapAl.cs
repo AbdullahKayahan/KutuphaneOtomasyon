@@ -51,15 +51,14 @@ namespace KutuphaneOtomasyon
             textBox5.Clear();
             textBox5.DataBindings.Clear();
             textBox5.DataBindings.Add("text", dtst1, "Eser.eserAdi");
-
-            textBox8.Clear();
-            textBox8.DataBindings.Clear();
-            textBox8.DataBindings.Add("text", dtst1, "Eser.durum");
         
             textBox9.Clear();
             textBox9.DataBindings.Clear();
             textBox9.DataBindings.Add("text", dtst1, "Eser.id");
-    
+
+            textBox10.Clear();
+            textBox10.DataBindings.Clear();
+            textBox10.DataBindings.Add("text", dtst1, "Eser.adet");
             adtr1.Dispose();
             con.Close();
 
@@ -78,7 +77,8 @@ namespace KutuphaneOtomasyon
         private void button1_Click(object sender, EventArgs e)
         {
             string islemTuru = "ALINDI";
-            if (textBox8.Text == "0")
+            int adet = Convert.ToInt32(textBox10.Text);
+            if (adet>0)
             {
                 SqlCommand cmd = new SqlCommand();
                 con.Open();
@@ -88,14 +88,16 @@ namespace KutuphaneOtomasyon
                 cmd.Connection = con;
                 cmd.CommandText = "insert into Islemler(eserId,islemTuru,kullaniciId,tarih) values ('" + textBox9.Text + "','" + islemTuru +"' ,'" + textBox7.Text + "','" + tarih + "')";
                 cmd.ExecuteNonQuery();
+
+                adet--;
+                SqlCommand gncl = new SqlCommand("update Eser set adet= " + adet + " where kod = '" + textBox4.Text + "'", con);
+                gncl.ExecuteNonQuery();
+                con.Close();
                 MessageBox.Show("işlem tamam");
             }
             else
             {
-                if(textBox8.Text=="1")
-                MessageBox.Show(textBox5.Text + " İsimli Eser Ayırtılmış");
-                else if (textBox8.Text == "2")
-                MessageBox.Show(textBox5.Text + " İsimli Eser Şuan Başkasında");
+               MessageBox.Show(textBox5.Text + " İsimli Eser Şuan Mevcut Değil");
             }
         }
 
