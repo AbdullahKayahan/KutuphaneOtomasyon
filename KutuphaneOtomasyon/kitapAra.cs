@@ -16,7 +16,7 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
-
+        public anaSayfa ana;
         private void comboBox1_TextChanged(object sender, EventArgs e)
         {
             textBox1.Text=comboBox1.Text+" GİRİNİZ";
@@ -32,6 +32,11 @@ namespace KutuphaneOtomasyon
             
            
 
+        }
+
+        private void kitapAra_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ana.WindowState = FormWindowState.Maximized;
         }
     }
 }

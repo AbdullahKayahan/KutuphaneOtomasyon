@@ -18,8 +18,10 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
-
+        //SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
+        public anaSayfa ana;
+        SqlConnection con = new SqlConnection();
+        baglanti dataCon = new baglanti();
         private void button1_Click(object sender, EventArgs e)
         {
             SqlCommand cmd = new SqlCommand();
@@ -43,9 +45,24 @@ namespace KutuphaneOtomasyon
            
         }
 
+        void temizle(Control cnt)
+        {
+            foreach (Control c in cnt.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Clear();
+                }
+                else if(c is ComboBox)
+                {
+                    ((ComboBox)c).Text="Tür Seçiniz";
+                }
+
+            }
+        }
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            temizle(panel1);
            }
 
         public static string passwordEncrypt(string inText, string key)
@@ -90,9 +107,15 @@ namespace KutuphaneOtomasyon
             }
             return cryptTxt;
         }
-    
 
+        private void ziyaretciKayit_Load(object sender, EventArgs e)
+        {
+            con = dataCon.conn;
+        }
 
-
-}
+        private void ziyaretciKayit_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ana.WindowState = FormWindowState.Maximized;
+        }
+    }
 }

@@ -16,14 +16,14 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
+        public anaSayfa ana;
         public int kimlikNo;
         public int kitapId;
-        SqlConnection con=new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
-
-
+        //SqlConnection con=new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
+        SqlConnection con = new SqlConnection();
+        baglanti dataCon = new baglanti();
         void ara()
-        {
-           
+        {        
 
             con.Open();
             DataSet dtst1 = new DataSet();
@@ -65,6 +65,8 @@ namespace KutuphaneOtomasyon
         } 
         private void kitapAl_Load(object sender, EventArgs e)
         {
+           
+            con = dataCon.conn;
             textBox1.Text = kimlikNo.ToString();
             textBox4.Text = kitapId.ToString();
             ara();
@@ -107,6 +109,11 @@ namespace KutuphaneOtomasyon
             else if (textBox6.Text == "1") { textBox6.Text = "MEMUR"; }
             else if(textBox6.Text == "2") { textBox6.Text = "ÖĞRETİM GÖREVLİSİ"; }
 
+        }
+
+        private void kitapAl_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            ana.WindowState = FormWindowState.Maximized;
         }
     }
     }

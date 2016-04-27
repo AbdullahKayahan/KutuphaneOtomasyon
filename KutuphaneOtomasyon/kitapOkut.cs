@@ -16,13 +16,14 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
-
+        public anaSayfa ana;
         private void button1_Click(object sender, EventArgs e)
         {
             kimlikOkut kimOkt = new kimlikOkut();
+            kimOkt.ana = ana;
             kimOkt.Show();
             kimOkt.kitapNo = Convert.ToInt32(textBox1.Text);
-            this.Hide();
+            this.Close();
         }
     }
 }

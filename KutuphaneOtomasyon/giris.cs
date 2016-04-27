@@ -16,8 +16,10 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
-
+        //SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;database=kutuphane;Trusted_Connection=yes");
+        baglanti dataCon = new baglanti();
+        SqlConnection con = new SqlConnection();
+        public anaSayfa ana;
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
@@ -34,6 +36,7 @@ namespace KutuphaneOtomasyon
             if (textBox2.Text == "3")
             {
             yonetim yntm = new yonetim();
+            yntm.ana = this.ana;
             yntm.Show();
             this.Close();
             }
@@ -41,6 +44,9 @@ namespace KutuphaneOtomasyon
             
         }
 
-    
+        private void giris_Load(object sender, EventArgs e)
+        {
+            con = dataCon.conn;
+        }
     }
 }

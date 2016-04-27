@@ -16,5 +16,10 @@ namespace KutuphaneOtomasyon
         {
             InitializeComponent();
         }
+
+        private void ziyaretciGiris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

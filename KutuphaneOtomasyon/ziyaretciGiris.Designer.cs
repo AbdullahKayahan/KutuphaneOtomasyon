@@ -112,6 +112,7 @@
             this.Controls.Add(this.label3);
             this.Name = "ziyaretciGiris";
             this.Text = "ziyaretciGiris";
+            this.Load += new System.EventHandler(this.ziyaretciGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
